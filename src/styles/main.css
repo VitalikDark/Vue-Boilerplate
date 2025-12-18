@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Lato", ui-sans-serif, system-ui, sans-serif;
+  --color-black: #232323;
+  --color-light-gray-200: #9C9C9C;
+  --color-purple: #7600A8;
+}
+
+@utility text-28 {
+  font-size: 28px;
+  line-height: 100%;
+}
+
+@utility text-22 {
+  font-size: 22px;
+  line-height: 100%;
+}
+
+@utility text-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@utility text-12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-black);
+}
